@@ -140,7 +140,7 @@
   line-height: 30px;
 }
 
-.recipes__video {
+.recipes__videos {
   display: flex;
   column-gap: 40px;
   margin: 0 auto 215px;
@@ -159,7 +159,7 @@
   border: none;
 }
 
-.recipes__video-caption {
+.recipes__videos-caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
@@ -168,14 +168,14 @@
   line-height: 30px;
 }
 
-.recipes__video-title {
+.recipes__videos-title {
   position: relative;
   left: 0;
   bottom: 0;
   margin: 0;
 }
 
-.recipes__video-duration {
+.recipes__videos-duration {
   position: relative;
   left: 0;
   bottom: 0;
