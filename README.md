@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I plan to add functionality to the page that will allow patrons to pre-order menu items (with payment and requested pick-up times).
