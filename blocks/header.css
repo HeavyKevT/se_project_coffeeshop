@@ -33,6 +33,7 @@
 
 .header__description {
   margin-bottom: 28px;
+  margin-top: 0;
   max-width: 683px;
   margin-left: 80px;
   padding: 0;
@@ -50,28 +51,29 @@
 }
 
 .header__footer {
-  margin-top: auto;
-}
-
-.header__paragraph {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
-  padding: 0;
+  margin: auto 80px 40px;
+}
+
+.header__footer_hours-column {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   font-weight: 500;
   color: #838383;
 }
 
-.header__paragraph_hours {
-  list-style-type: none;
-  position: relative;
-  left: 80px;
-  bottom: 40px;
-  flex-direction: column;
+.header__paragraph {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .header__paragraph_address {
   position: relative;
-  right: 80px;
-  bottom: 40px;
+  margin-top: auto;
 }

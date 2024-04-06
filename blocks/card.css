@@ -4,16 +4,8 @@
   flex-direction: column;
 }
 
-.card:first-child {
-  margin-right: 100px;
-}
-
-.card:last-child {
-  margin-top: 100px;
-}
-
 .card__title {
-  margin-bottom: 32px;
+  margin: 0 0 32px;
   padding: 0;
   font-family: Inter, Arial, sans-serif;
   font-weight: bold;
@@ -36,6 +28,5 @@
 
 .card__list-divider {
   flex-grow: 1;
-  border-bottom: solid;
-  border-color: black;
+  border-bottom: solid black;
 }

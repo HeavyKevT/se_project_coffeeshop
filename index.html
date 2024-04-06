@@ -58,30 +58,24 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__paragraph">
-            <ul class="header__paragraph header__paragraph_hours">
-              <li class="header__paragraph-item">Hours</li>
-              <li class="header__paragraph-item">
-                Monday - Friday (10:00 - 19:00)
-              </li>
-              <li class="header__paragraph-item">
-                Saturday - Sunday (11:00 - 18:00)
-              </li>
-            </ul>
-            <p class="header__paragraph header__paragraph_address">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
+          <div class="header__footer_hours-column">
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
+          <p class="header__paragraph header__paragraph_address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <h3 class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </h3>
-          <div class="recipes__videos">
+          </p>
+          <ul class="recipes__videos">
             <div class="recipes__vid-box">
               <iframe
                 class="recipes__iframe"
@@ -91,10 +85,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__videos-caption">
-                <p class="recipes__videos-title">Aeropress recipe</p>
-                <p class="recipes__videos-duration">~5 min</p>
-              </div>
+              <p class="recipes__videos-caption">
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
+              </p>
             </div>
             <div class="recipes__vid-box">
               <iframe
@@ -105,12 +99,12 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__videos-caption">
-                <p class="recipes__videos-title">French press recipe</p>
-                <p class="recipes__videos-duration">~15 min</p>
-              </div>
+              <p class="recipes__videos-caption">
+                <span>French press recipe</span>
+                <span>~15 min</span>
+              </p>
             </div>
-          </div>
+          </ul>
         </section>
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Book a Table</h2>
@@ -159,52 +153,54 @@
         </section>
         <section id="menu" class="menu">
           <h2 class="menu__title">Menu</h2>
-          <h3 class="menu__subtitle">
+          <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
-          </h3>
+          </p>
           <div class="menu__cards">
-            <div class="card">
-              <h4 class="card__title">Filter</h4>
-              <li class="card__list-item">
-                Regular (12 oz)&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$1
-              </li>
-              <li class="card__list-item">
-                Large (16 oz)&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$1.25
-              </li>
-              <li class="card__list-item">
-                XL (20 0z)&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$1.5
-              </li>
-              <li class="card__list-item">
-                Party-size (24 oz, decaf)&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$1.75
-              </li>
-              <li class="card__list-item">
-                Iced Coffee (16 oz)&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$1.25
-              </li>
-            </div>
-            <div class="card">
-              <h4 class="card__title">Espresso</h4>
-              <li class="card__list-item">
-                Macchiato&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$2.25
-              </li>
-              <li class="card__list-item">
-                Cortado&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$2.5
-              </li>
-              <li class="card__list-item">
-                Mocha&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$3
-              </li>
-              <li class="card__list-item">
-                Sunrise in the Bay Area (decaf)&nbsp;
-                <span class="card__list-divider"></span>&nbsp;$10
-              </li>
+            <div class="menu__cards_top-row">
+              <div class="card">
+                <h4 class="card__title">Filter</h4>
+                <li class="card__list-item">
+                  Regular (12 oz)&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 0z)&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$1.25
+                </li>
+              </div>
+              <div class="card">
+                <h4 class="card__title">Espresso</h4>
+                <li class="card__list-item">
+                  Macchiato&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)&nbsp;
+                  <span class="card__list-divider"></span>&nbsp;$10
+                </li>
+              </div>
             </div>
             <div class="card">
               <h4 class="card__title">Baked Goods</h4>
@@ -237,7 +233,7 @@
         </section>
         <section class="about">
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -263,7 +259,7 @@
             class="footer__logo"
           />
           <div class="footer__social-media-column">
-            <p class="footer__social-heading">Social media</p>
+            <h2 class="footer__social-heading">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#">
